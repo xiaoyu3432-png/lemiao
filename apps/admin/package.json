@@ -1,0 +1,6 @@
+{
+  "name": "@lemiao/admin", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "vue-tsc --noEmit && vite build", "typecheck": "vue-tsc --noEmit" },
+  "dependencies": { "@lemiao/contracts": "workspace:*", "element-plus": "2.14.6", "vue": "3.5.43", "vue-router": "4.6.3" },
+  "devDependencies": { "@types/node": "22.18.10", "@vitejs/plugin-vue": "5.2.4", "typescript": "5.9.3", "vite": "6.4.3", "vue-tsc": "3.3.11" }
+}

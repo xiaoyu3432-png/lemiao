@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T03:12:49.1895978Z",
+  "title": "Design System: 乐秒运动 · 小程序",
+  "extensions": {
+    "scope": {
+      "paths": [
+        "apps/miniapp"
+      ],
+      "platforms": [
+        "微信小程序",
+        "H5 预览"
+      ],
+      "excludes": [
+        "后台改版",
+        "新增预约、支付、登录"
+      ],
+      "directionSource": ".impeccable/miniapp-direction.md",
+      "productContext": "PRODUCT.md 保留旧版；此文档不修改产品范围。"
+    },
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "信号橘红",
+        "tonalRamp": [
+          "oklch(15% 0.1784 34.91)",
+          "oklch(26.43% 0.1784 34.91)",
+          "oklch(37.86% 0.1784 34.91)",
+          "oklch(49.29% 0.1784 34.91)",
+          "oklch(60.71% 0.1784 34.91)",
+          "oklch(72.14% 0.1784 34.91)",
+          "oklch(83.57% 0.1784 34.91)",
+          "oklch(95% 0.1784 34.91)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "accent-active": {
+        "role": "primary",
+        "displayName": "橘红按压",
+        "tonalRamp": [
+          "oklch(15% 0.1614 34.73)",
+          "oklch(26.43% 0.1614 34.73)",
+          "oklch(37.86% 0.1614 34.73)",
+          "oklch(49.29% 0.1614 34.73)",
+          "oklch(60.71% 0.1614 34.73)",
+          "oklch(72.14% 0.1614 34.73)",
+          "oklch(83.57% 0.1614 34.73)",
+          "oklch(95% 0.1614 34.73)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "浅橘选择底",
+        "tonalRamp": [
+          "oklch(15% 0.0163 46.57)",
+          "oklch(26.43% 0.0163 46.57)",
+          "oklch(37.86% 0.0163 46.57)",
+          "oklch(49.29% 0.0163 46.57)",
+          "oklch(60.71% 0.0163 46.57)",
+          "oklch(72.14% 0.0163 46.57)",
+          "oklch(83.57% 0.0163 46.57)",
+          "oklch(95% 0.0163 46.57)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "深橘选择字",
+        "tonalRamp": [
+          "oklch(15% 0.1602 34.73)",
+          "oklch(26.43% 0.1602 34.73)",
+          "oklch(37.86% 0.1602 34.73)",
+          "oklch(49.29% 0.1602 34.73)",
+          "oklch(60.71% 0.1602 34.73)",
+          "oklch(72.14% 0.1602 34.73)",
+          "oklch(83.57% 0.1602 34.73)",
+          "oklch(95% 0.1602 34.73)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "石墨",
+        "tonalRamp": [
+          "oklch(15% 0.0094 173.50)",
+          "oklch(26.43% 0.0094 173.50)",
+          "oklch(37.86% 0.0094 173.50)",
+          "oklch(49.29% 0.0094 173.50)",
+          "oklch(60.71% 0.0094 173.50)",
+          "oklch(72.14% 0.0094 173.50)",
+          "oklch(83.57% 0.0094 173.50)",
+          "oklch(95% 0.0094 173.50)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "信息灰",
+        "tonalRamp": [
+          "oklch(15% 0.0133 161.73)",
+          "oklch(26.43% 0.0133 161.73)",
+          "oklch(37.86% 0.0133 161.73)",
+          "oklch(49.29% 0.0133 161.73)",
+          "oklch(60.71% 0.0133 161.73)",
+          "oklch(72.14% 0.0133 161.73)",
+          "oklch(83.57% 0.0133 161.73)",
+          "oklch(95% 0.0133 161.73)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "白色",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "纸色",
+        "tonalRamp": [
+          "oklch(15% 0.0053 106.50)",
+          "oklch(26.43% 0.0053 106.50)",
+          "oklch(37.86% 0.0053 106.50)",
+          "oklch(49.29% 0.0053 106.50)",
+          "oklch(60.71% 0.0053 106.50)",
+          "oklch(72.14% 0.0053 106.50)",
+          "oklch(83.57% 0.0053 106.50)",
+          "oklch(95% 0.0053 106.50)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "分隔灰",
+        "tonalRamp": [
+          "oklch(15% 0.0074 132.42)",
+          "oklch(26.43% 0.0074 132.42)",
+          "oklch(37.86% 0.0074 132.42)",
+          "oklch(49.29% 0.0074 132.42)",
+          "oklch(60.71% 0.0074 132.42)",
+          "oklch(72.14% 0.0074 132.42)",
+          "oklch(83.57% 0.0074 132.42)",
+          "oklch(95% 0.0074 132.42)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "次要操作底",
+        "tonalRamp": [
+          "oklch(15% 0.0086 128.56)",
+          "oklch(26.43% 0.0086 128.56)",
+          "oklch(37.86% 0.0086 128.56)",
+          "oklch(49.29% 0.0086 128.56)",
+          "oklch(60.71% 0.0086 128.56)",
+          "oklch(72.14% 0.0086 128.56)",
+          "oklch(83.57% 0.0086 128.56)",
+          "oklch(95% 0.0086 128.56)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "secondary-active": {
+        "role": "neutral",
+        "displayName": "次要操作按压",
+        "tonalRamp": [
+          "oklch(15% 0.0091 134.88)",
+          "oklch(26.43% 0.0091 134.88)",
+          "oklch(37.86% 0.0091 134.88)",
+          "oklch(49.29% 0.0091 134.88)",
+          "oklch(60.71% 0.0091 134.88)",
+          "oklch(72.14% 0.0091 134.88)",
+          "oklch(83.57% 0.0091 134.88)",
+          "oklch(95% 0.0091 134.88)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "notice": {
+        "role": "neutral",
+        "displayName": "演示提示底",
+        "tonalRamp": [
+          "oklch(15% 0.0074 132.42)",
+          "oklch(26.43% 0.0074 132.42)",
+          "oklch(37.86% 0.0074 132.42)",
+          "oklch(49.29% 0.0074 132.42)",
+          "oklch(60.71% 0.0074 132.42)",
+          "oklch(72.14% 0.0074 132.42)",
+          "oklch(83.57% 0.0074 132.42)",
+          "oklch(95% 0.0074 132.42)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "notice-text": {
+        "role": "neutral",
+        "displayName": "演示提示字",
+        "tonalRamp": [
+          "oklch(15% 0.0174 157.83)",
+          "oklch(26.43% 0.0174 157.83)",
+          "oklch(37.86% 0.0174 157.83)",
+          "oklch(49.29% 0.0174 157.83)",
+          "oklch(60.71% 0.0174 157.83)",
+          "oklch(72.14% 0.0174 157.83)",
+          "oklch(83.57% 0.0174 157.83)",
+          "oklch(95% 0.0174 157.83)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "skeleton": {
+        "role": "neutral",
+        "displayName": "骨架灰",
+        "tonalRamp": [
+          "oklch(15% 0.0079 139.44)",
+          "oklch(26.43% 0.0079 139.44)",
+          "oklch(37.86% 0.0079 139.44)",
+          "oklch(49.29% 0.0079 139.44)",
+          "oklch(60.71% 0.0079 139.44)",
+          "oklch(72.14% 0.0079 139.44)",
+          "oklch(83.57% 0.0079 139.44)",
+          "oklch(95% 0.0079 139.44)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "image-placeholder": {
+        "role": "neutral",
+        "displayName": "影像占位灰",
+        "tonalRamp": [
+          "oklch(15% 0.0118 153.66)",
+          "oklch(26.43% 0.0118 153.66)",
+          "oklch(37.86% 0.0118 153.66)",
+          "oklch(49.29% 0.0118 153.66)",
+          "oklch(60.71% 0.0118 153.66)",
+          "oklch(72.14% 0.0118 153.66)",
+          "oklch(83.57% 0.0118 153.66)",
+          "oklch(95% 0.0118 153.66)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "court": {
+        "role": "secondary",
+        "displayName": "训练场深绿",
+        "tonalRamp": [
+          "oklch(15% 0.0219 166.63)",
+          "oklch(26.43% 0.0219 166.63)",
+          "oklch(37.86% 0.0219 166.63)",
+          "oklch(49.29% 0.0219 166.63)",
+          "oklch(60.71% 0.0219 166.63)",
+          "oklch(72.14% 0.0219 166.63)",
+          "oklch(83.57% 0.0219 166.63)",
+          "oklch(95% 0.0219 166.63)"
+        ],
+        "tonalRampPurpose": "由当前颜色合成的等色相/色度 OKLCH 展示坡道；不是已实现的语义 token，极端亮度可能由渲染器裁切色域。"
+      },
+      "home-orange": {
+        "role": "primary",
+        "displayName": "首页橘色",
+        "purpose": "截图方向首页刊头，不替换全局accent。"
+      },
+      "home-paper": {
+        "role": "neutral",
+        "displayName": "首页目录底"
+      },
+      "home-rail": {
+        "role": "neutral",
+        "displayName": "首页分类栏底"
+      },
+      "home-banner": {
+        "role": "secondary",
+        "displayName": "首页训练横幅绿"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "训练主视觉标题",
+        "purpose": "保留旧摄影首页的提取值；当前首页使用home-display。"
+      },
+      "headline": {
+        "displayName": "页面标题",
+        "purpose": "页级层级；局部页面有实际字号覆盖。"
+      },
+      "section": {
+        "displayName": "章节标题",
+        "purpose": "课程与详情分区。"
+      },
+      "course-title": {
+        "displayName": "课程标题",
+        "purpose": "320px 下至少14px。"
+      },
+      "body": {
+        "displayName": "系统正文",
+        "purpose": "微信使用系统字体；H5 使用本地 Lemiao UI 子集与系统回退。"
+      },
+      "course-meta": {
+        "displayName": "课程属性",
+        "purpose": "年龄、时长至少12px。"
+      },
+      "action": {
+        "displayName": "全局操作",
+        "purpose": "主次按钮至少14px。"
+      },
+      "filter": {
+        "displayName": "筛选操作",
+        "purpose": "授课方式筛选至少14px。"
+      },
+      "price": {
+        "displayName": "课程价格",
+        "purpose": "使用 tabular-nums；明确示例价格。"
+      }
+    },
+    "shadows": [],
+    "elevation": {
+      "strategy": "无界面投影；以留白、实色面和1px分隔线区分层次。"
+    },
+    "motion": [
+      {
+        "name": "photo-arrive",
+        "value": "700ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "filter saturate(.45) 到 saturate(1)；减少动画时 CSS 动画和过渡关闭。"
+      },
+      {
+        "name": "explore-scroll",
+        "value": "200ms",
+        "purpose": "首页搜索或探索课程滚动至目录；不声明命令动画已适配减少动画。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "h5-content-cap",
+        "value": "600px"
+      },
+      {
+        "name": "home-compact",
+        "value": "350px"
+      }
+    ],
+    "layout": {
+      "rpxBaseDeviceWidth": 375,
+      "rpxCalcMaxDeviceWidth": 600,
+      "h5ContentMaxWidth": "480px",
+      "h5TabBarMaxWidth": "480px",
+      "basePageMaxWidth": "760px",
+      "previewConversion": "375px 设备宽度下 1rpx = 0.5px；组件片段只用于视觉预览。"
+    },
+    "accessibility": {
+      "focus": "3px solid #c8401d; outline-offset:3px",
+      "minPrimaryTouchHeight": "44px",
+      "fontFloors": {
+        "courseCategory": "12px",
+        "courseAgeDuration": "12px",
+        "examplePriceNote": "12px",
+        "courseTitle": "14px",
+        "homePrimaryActions": "13px in current screenshot-based homepage; global buttons remain 14px",
+        "globalPrimarySecondaryButtons": "14px"
+      },
+      "limitation": "其他辅助标签维持局部 rpx 值；不是全局12px兜底。",
+      "states": "筛选有 aria-pressed；错误包含文字和重试；未接入服务是静态行。"
+    },
+    "assets": {
+      "rasterCount": 15,
+      "generator": "built-in image_gen",
+      "rasterNames": [
+        "brand-mark",
+        "training-hero",
+        "activity-poster",
+        "basketball",
+        "fitness",
+        "rope",
+        "equipment",
+        "home-illustration",
+        "course-banner",
+        "basketball-2d",
+        "fitness-2d",
+        "rope-2d",
+        "campaign-family",
+        "campaign-rope",
+        "campaign-team"
+      ],
+      "runtimePath": "apps/miniapp/src/static/brand/",
+      "originalsPath": "assets/brand/originals/",
+      "promptsPath": "assets/brand/prompts/",
+      "sourceManifest": "assets/brand/source-manifest.json",
+      "iconFamilyCount": 13,
+      "iconColorVariants": 4,
+      "iconSourcePath": "assets/brand/icons/",
+      "iconGeometry": {
+        "viewBox": "0 0 48 48",
+        "strokeWidth": 2.6,
+        "linecap": "round",
+        "linejoin": "round"
+      },
+      "runtimeIcons": "72px PNG；导航有选中及未选中素材。",
+      "truth": "图片为品牌情境，不代表实际学员、教练或已举办活动。",
+      "retainedOriginalSetCount": 7,
+      "additionalHomepageManifest": "assets/brand/home-2d-manifest.json"
+    },
+    "sources": [
+      "apps/miniapp/src/styles/global.scss",
+      "apps/miniapp/src/components/BrandHeader.vue",
+      "apps/miniapp/src/components/CourseCard.vue",
+      "apps/miniapp/src/components/FeedbackState.vue",
+      "apps/miniapp/src/pages/index/index.vue",
+      "apps/miniapp/src/pages/activities/index.vue",
+      "apps/miniapp/src/pages/profile/index.vue",
+      "apps/miniapp/src/pages/course/detail.vue",
+      "apps/miniapp/src/pages.json",
+      "assets/brand/README.md",
+      "assets/brand/source-manifest.json",
+      "apps/miniapp/src/components/HomeCourseRow.vue",
+      "assets/brand/home-2d-manifest.json",
+      "apps/miniapp/src/components/HomeCarousel.vue",
+      "apps/miniapp/src/content/campaigns.ts"
+    ],
+    "previewNotes": "普通HTML展示uni-app视觉；旧组件rpx按375px换算，新首页使用px。首页已实现搜索；预览不连接业务接口。",
+    "homepageUpdate": {
+      "authority": "用户明确要求根据截图重建首页并使用2D插画；覆盖旧首页白底摄影方向，其他页面保持原状。",
+      "source": "apps/miniapp/src/pages/index/index.vue",
+      "rowSource": "apps/miniapp/src/components/HomeCourseRow.vue",
+      "layout": {
+        "maxWidth": "480px",
+        "heroHeight": "232px",
+        "searchMinHeight": "46px",
+        "railWidth": "78px",
+        "contentPadding": "12px",
+        "cover": "76px × 100px",
+        "compactBreakpoint": "350px",
+        "compactRailWidth": "68px",
+        "compactCover": "65px × 92px",
+        "catalogTopRadius": "18px",
+        "catalogOverlap": "-10px"
+      },
+      "navigation": "首页custom导航预留真实微信胶囊与状态栏；底部仍为首页、活动专区、我的，无AI标签。",
+      "behavior": "搜索匹配已加载课程名称、分类、描述；输入重置分类和授课方式；附近课、找教练、地点服务均明确未接入。整行进入既有详情，无真实预约与支付。",
+      "typography": "首页轮播标题26px（<=350px为23px），课程标题14px，属性及示例价12px；筛选与轮播主操作13px。",
+      "assets": {
+        "count": 5,
+        "names": [
+          "home-illustration",
+          "course-banner",
+          "basketball-2d",
+          "fitness-2d",
+          "rope-2d"
+        ],
+        "generator": "built-in image_gen",
+        "manifest": "assets/brand/home-2d-manifest.json",
+        "runtimePath": "apps/miniapp/src/static/brand/",
+        "style": "原创2D运动插画；不代表真实学员或教练"
+      }
+    },
+    "carouselCampaignRevision": {
+      "request": "缩小筛选视觉尺寸并调整配色；增加首页轮播及营销插画。",
+      "teachingFilter": {
+        "railColor": "#f0f2ef",
+        "railRadius": "10px",
+        "hitArea": "48px × 44px",
+        "selectedInnerHeight": "28px",
+        "selectedRadius": "7px",
+        "selectedBackground": "#ffffff",
+        "selectedText": "#b73b1b",
+        "selectedBorder": "1px solid #e2e6df",
+        "fontSize": "13px",
+        "selectedWeight": 700,
+        "state": "aria-pressed"
+      },
+      "carousel": {
+        "source": "apps/miniapp/src/components/HomeCarousel.vue",
+        "slideCount": 4,
+        "images": [
+          "home-illustration",
+          "campaign-family",
+          "campaign-rope",
+          "campaign-team"
+        ],
+        "height": "232px",
+        "intervalMs": 5500,
+        "transitionMs": 350,
+        "circular": true,
+        "controls": [
+          "previous",
+          "next",
+          "pause/play",
+          "current/total"
+        ],
+        "controlSize": "44px × 44px",
+        "title": "26px / 800 / 1.3; <=350px:23px",
+        "visibility": "页面隐藏停止自动播放",
+        "reducedMotion": "H5初次读取减少动画偏好时默认暂停，可手动播放",
+        "destination": "首图进入课程目录；其他主题进入活动页"
+      },
+      "campaigns": {
+        "source": "apps/miniapp/src/content/campaigns.ts",
+        "panelCount": 3,
+        "themes": [
+          "cream",
+          "green",
+          "orange"
+        ],
+        "artHeight": "180px; <=350px:155px",
+        "radius": "12px",
+        "panelGap": "28px",
+        "headingSize": "17px",
+        "statusSize": "12px",
+        "descriptionSize": "13px",
+        "status": "筹备中；非活动招募，无真实预约或优惠承诺"
+      },
+      "evidence": [
+        ".impeccable/review/carousel-390.png",
+        ".impeccable/review/carousel-320.png",
+        ".impeccable/review/campaigns-320.png"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "主要按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "橘红实底，进入课程或重试。",
+      "html": "<button class=\"ds-primary\">继续发现课程</button>",
+      "css": ".ds-primary{font-family:system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;min-height:44px;padding:9px 14px;border:0;border-radius:6px;background:#c8401d;color:#fff;font-size:14px;font-weight:650;line-height:1.7;text-align:center}.ds-primary:hover{background:#c8401d}.ds-primary:active{background:#aa3213}.ds-primary:focus-visible{outline:3px solid #c8401d;outline-offset:3px}.ds-primary:disabled{color:#7b817d;background:#e9ece6}"
+    },
+    {
+      "name": "次要按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "全局已定义的次要按钮，按压加深浅灰。",
+      "html": "<button class=\"ds-secondary\">返回</button>",
+      "css": ".ds-secondary{font-family:system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;min-height:44px;padding:9px 14px;border:0;border-radius:6px;background:#e9ece6;color:#202624;font-size:14px;font-weight:650;line-height:1.7}.ds-secondary:hover{background:#e9ece6}.ds-secondary:active{background:#dfe3dd}.ds-secondary:focus-visible{outline:3px solid #c8401d;outline-offset:3px}"
+    },
+    {
+      "name": "授课方式筛选",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "旧首页筛选参考；当前首页为灰轨道、白色28px选中内层和橘字，48×44px触控区域。",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-filter\" aria-pressed=\"true\">全部课程</button><button class=\"ds-filter\" aria-pressed=\"false\">小班团课</button><button class=\"ds-filter\" aria-pressed=\"false\">一对一</button></div>",
+      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:0 12px;border-bottom:1px solid #e5e8e3}.ds-filter{font-family:system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;background:transparent;color:#68716c;font-size:14px;min-height:44px;min-width:44px;line-height:1.6;padding:9px 0;border:0;border-bottom:2px solid transparent;border-radius:0}.ds-filter[aria-pressed=true]{color:#202624;font-weight:750;border-bottom-color:#c8401d}.ds-filter:hover{background:transparent}.ds-filter:focus-visible{outline:3px solid #c8401d;outline-offset:3px}"
+    },
+    {
+      "name": "课程演示标签",
+      "kind": "chip",
+      "refersTo": "demo-label",
+      "description": "静态信息标签；源实现21rpx，无全局12px兜底。",
+      "html": "<span class=\"ds-demo\">课程演示</span>",
+      "css": ".ds-demo{display:inline-block;font-family:system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:10.5px;line-height:1.6;color:#5d6861;background:#edf0eb;padding:2.5px 6px;border-radius:2px;white-space:nowrap}"
+    },
+    {
+      "name": "课程列表项",
+      "kind": "card",
+      "refersTo": "course-card",
+      "description": "保留的旧CourseCard组件；当前首页使用HomeCourseRow。预览灰块示意图片位置。",
+      "html": "<button class=\"ds-course\"><span class=\"ds-photo\" aria-hidden=\"true\"></span><span class=\"ds-course-info\"><span class=\"ds-category\">篮球 / 小班团课</span><span class=\"ds-course-title\">篮球基础训练</span><span class=\"ds-meta\">6–12岁 · 60分钟 / 节</span><span class=\"ds-bottom\"><span class=\"ds-price\">¥99 <span class=\"ds-note\">示例价</span></span><svg width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" aria-hidden=\"true\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 24h29M27 13l11 11-11 11\"/></g></svg></span></span></button>",
+      "css": ".ds-course{display:flex;align-items:center;gap:13px;padding:14px 0;width:100%;font-family:system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;text-align:left;line-height:1.5;background:transparent;border:0;border-radius:0;border-bottom:1px solid #e5e8e3;color:#202624}.ds-course:hover{background:transparent}.ds-course:active{background:#edf0eb}.ds-course:focus-visible{outline:3px solid #c8401d;outline-offset:3px}.ds-photo{width:101px;height:108px;border-radius:6px;flex:none;background:#dce4de}.ds-course-info{flex:1;min-width:0}.ds-category{display:block;font-size:12px;color:#53615a}.ds-course-title{display:block;font-size:15.5px;font-weight:750;margin:4.5px 0}.ds-meta{display:block;font-size:12px;color:#68716c}.ds-bottom{display:flex;align-items:center;justify-content:space-between;gap:4px;margin-top:11px}.ds-price{font-size:19px;font-weight:750;color:#c8401d;font-variant-numeric:tabular-nums}.ds-note{font-size:12px;font-weight:400;color:#68716c}"
+    },
+    {
+      "name": "底部导航",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "三项原生导航的 HTML 视觉等价预览；真实尺寸由 uni-app 运行时控制。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主导航\"><button class=\"ds-tab\" aria-current=\"page\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 48 48\" aria-hidden=\"true\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 20 24 6l19 14M10 18v23h10V29h8v12h10V18\"/></g></svg><span>首页</span></button><button class=\"ds-tab\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 48 48\" aria-hidden=\"true\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"11\" width=\"32\" height=\"30\" rx=\"3\"/><path d=\"M16 6v10M32 6v10M8 22h32M17 30h5M27 30h5M17 35h5\"/></g></svg><span>活动专区</span></button><button class=\"ds-tab\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 48 48\" aria-hidden=\"true\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"15\" r=\"8\"/><path d=\"M9 42v-3a15 15 0 0 1 30 0v3\"/></g></svg><span>我的</span></button></nav>",
+      "css": ".ds-nav{display:flex;background:#fff;max-width:480px;margin:auto}.ds-tab{display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:3px;border:0;background:#fff;color:#68716c;padding:6px;font:12px system-ui,\"PingFang SC\",\"Microsoft YaHei\",sans-serif;min-height:50px}.ds-tab[aria-current=page]{color:#c8401d}.ds-tab:hover{background:#fff}.ds-tab:focus-visible{outline:3px solid #c8401d;outline-offset:3px}"
+    },
+    {
+      "name": "首页搜索",
+      "kind": "input",
+      "refersTo": "home-search",
+      "description": "在服务端演示课程中搜索；独立提交触控44×46px。"
+    },
+    {
+      "name": "首页紧凑课程行",
+      "kind": "card",
+      "refersTo": "home-course-row",
+      "description": "左2D图、标题、属性、年龄时长、示例价；详情是整行按钮中的提示。灰块示意插画位置。"
+    }
+  ],
+  "narrative": {
+    "northStar": "每一秒向前的训练场",
+    "overview": "乐秒采用用户已确认的“利落、专业，偏运动训练品牌”方向。原创 LM 跑道标志、训练场摄影、运动版画海报与装备静物插画建立身份；白色阅读面、石墨文字和信号橘红操作提供清晰秩序。页面围绕课程浏览，优先让家长读到运动项目、授课方式、适龄、时长与示例价格。\n\n本系统仅适用于 `apps/miniapp` 的微信小程序与 H5 预览，不代表后台已改版。视觉方向依据 `.impeccable/miniapp-direction.md`；旧版 `PRODUCT.md` 保留，不借本次文档更新重写产品事实。课程演示、未接入、加载失败和无结果状态必须继续可见，不新增预约、支付或登录能力。\n\n用户后续明确要求按截图重建首页并使用2D插画，覆盖旧首页白底摄影构图。新首页采用橘色刊头搜索、三项入口、地点提示、授课方式筛选和左栏紧凑目录；其他页面保持原实现。\n\n按后续要求，授课方式改为灰轨道白色选中内层；首页为四张可暂停轮播，活动页展示三组共享营销主题。所有主题均为筹备中概念，不代表可报名活动或真实优惠。",
+    "keyCharacteristics": [
+      "明亮、利落、专业的运动训练品牌。",
+      "原创 LM 标志、训练场摄影、运动版画与装备插画各有明确职责。",
+      "单列课程列表、细分隔线与紧凑线性图标构成主要信息秩序。",
+      "图片是品牌情境素材；课程事实来自服务端，功能状态如实表达。"
+    ],
+    "rules": [
+      {
+        "name": "The Action Signal Rule",
+        "body": "主要操作、价格和选中状态共享橘红；正文保持石墨或信息灰，不能只靠颜色表达状态。",
+        "section": "colors"
+      },
+      {
+        "name": "The Small Screen Reading Rule",
+        "body": "当前首页课程标题14px，分类、年龄/时长和示例价说明12px；首页筛选及主视觉按钮13px，辅助说明可为11px。主要操作高度至少44px；全局主次按钮保留14px下限。其他页面的辅助标签保持局部rpx值，非全局字号兜底。",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Training Surface Rule",
+        "body": "默认表面保持平整，边界依靠留白、实色与 1px 分隔线。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do 延续利落、专业的训练品牌，把课程项目、适龄、时长、授课方式和示例价放在清楚的阅读顺序中。",
+      "Do 使用本地 LM 标志、统一摄影、版画和线性图标，并保留原始提示词、来源和许可记录。",
+      "Do 在 320px 检查课程分类、年龄/时长、示例价说明 12px，课程标题和主要操作 14px，主要触控高度 44px 的下限。",
+      "Do 同时保留演示、未接入、错误、无结果提示与减少动画支持。",
+      "Do 将本规范限定于小程序及其 H5 预览；后台样式仍保持原状。"
+    ],
+    "donts": [
+      "Don't 引入低龄吉祥物、霓虹渐变、通用人物插画或装饰卡片堆叠。",
+      "Don't 把生成的情境素材声称为真实学员、教练或已经发生的活动。",
+      "Don't 把示例价格包装为可交易报价，或通过视觉假装预约、支付、登录已经接入。",
+      "Don't 用海报内嵌字替代必要信息，或拉伸、旋转 LM 标志。",
+      "Don't 将旧版 PRODUCT.md 的保留误解为后台已更新或产品范围已扩展。"
+    ]
+  }
+}

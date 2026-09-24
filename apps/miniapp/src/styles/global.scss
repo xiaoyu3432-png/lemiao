@@ -1,0 +1,42 @@
+page {
+  --ink: #202624; --muted: #68716c; --accent: #c8401d; --line: #e5e8e3; --paper: #f5f5f1;
+  background: #f5f5f1; color: #202624;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
+  font-size: 28rpx; line-height: 1.6;
+}
+view, text, button, image { box-sizing: border-box; }
+.page button { font-family: inherit; border: 0; margin: 0; font-weight: 500; }
+.page button::after { border: 0; }
+button:focus-visible { outline: 3px solid #c8401d; outline-offset: 3px; }
+button[disabled] { color: #7b817d; background: #e9ece6; }
+.page { max-width: 760px; margin: 0 auto; padding: 32rpx 32rpx 48rpx; }
+.page-title { font-size: 46rpx; font-weight: 750; line-height: 1.25; }
+.page-intro { display: block; color: var(--muted); font-size: 26rpx; margin-top: 14rpx; }
+.section-title-row { display: flex; justify-content: space-between; align-items: baseline; gap: 20rpx; }
+.section-title { font-size: 36rpx; font-weight: 700; line-height: 1.3; }
+.section-description { font-size: 23rpx; color: var(--muted); }
+.demo-label { font-size: 21rpx; color: #5d6861; background: #edf0eb; padding: 5rpx 12rpx; border-radius: 4rpx; white-space: nowrap; }
+.primary-button, .secondary-button { min-height: max(88rpx,44px); padding: 18rpx 28rpx; border-radius: 12rpx; font-size: max(28rpx,14px); line-height: 1.7; text-align: center; font-weight: 650; }
+.primary-button { color: #fff; background: #c8401d; }
+.primary-button:active { background: #aa3213; }
+.secondary-button { color: #202624; background: #e9ece6; }
+.secondary-button:active { background: #dfe3dd; }
+.page-footnote { display: block; text-align: center; font-size: 22rpx; color: var(--muted); line-height: 1.8; margin-top: 30rpx; }
+.brand-footer { display: flex; justify-content: center; align-items: center; gap: 12rpx; margin-top: 46rpx; font-size: 21rpx; color: #68716c; }
+.brand-footer image { width: 44rpx; height: 36rpx; }
+.icon { width: 40rpx; height: 40rpx; flex: none; }
+@keyframes photo-arrive { from { filter: saturate(.45); } to { filter: saturate(1); } }
+.brand-photo { animation: photo-arrive .7s cubic-bezier(.16,1,.3,1); }
+/* #ifdef H5 */
+@font-face { font-family: 'Lemiao UI'; font-style: normal; font-weight: 400; font-display: swap; src: url('/static/fonts/lemiao-ui-400.ttf') format('truetype'); }
+@font-face { font-family: 'Lemiao UI'; font-style: normal; font-weight: 700; font-display: swap; src: url('/static/fonts/lemiao-ui-700.ttf') format('truetype'); }
+uni-page-body { font-family: 'Lemiao UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+.page uni-button { font-family: inherit; border: none; margin: 0; }
+.page uni-button::after { border: none; }
+::selection { background: #f6c3b4; color: #202624; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-thumb { background: #b5beb6; border-radius: 4px; }
+uni-tabbar .uni-tabbar { max-width: 760px; margin: auto; }
+@media (min-width: 600px) { .page { max-width: 480px; } uni-tabbar .uni-tabbar { max-width: 480px; } }
+/* #endif */
+@media (prefers-reduced-motion: reduce) { view, text, button, image { animation: none !important; transition: none !important; } }

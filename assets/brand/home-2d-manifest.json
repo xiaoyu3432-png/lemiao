@@ -1,0 +1,32 @@
+[
+  {
+    "name": "home-illustration",
+    "prompt": "Create original 2D editorial sports illustration for Chinese youth sports training brand 乐秒 / LEMIAO. Professional, crisp, energetic flat vector-like print artwork, confident simplified shapes, subtle flat screenprint texture, natural athletic anatomy, sophisticated independent sports brand. Signal orange #F45125, cream #FFF4DA, forest green #234837 and charcoal #202624. No 3D, no gradients, no glossy rendering, no cute mascot, no text, letters, logos or watermark. These are production app assets, not a UI mockup.\nWide horizontal 3:2 art. Background is solid vivid orange #F45125 across entire canvas. RIGHT half: dynamic 2D illustrated East Asian child in cream sports shirt and forest-green shorts jumping with an orange basketball, an elegant large cream track curve beneath and one small green cone. Large simplified clear forms readable at 170px. LEFT 48% is completely calm flat orange negative space reserved for headline overlay. Energetic full-body posture, cheerful focused face, editorial sports poster, restrained color palette.",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cd61-4489-7920-aa36-038d26de8b81\\exec-e339f247-987c-424e-821b-e472c05dd50d.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "course-banner",
+    "prompt": "Create original 2D editorial sports illustration for Chinese youth sports training brand 乐秒 / LEMIAO. Professional, crisp, energetic flat vector-like print artwork, confident simplified shapes, subtle flat screenprint texture, natural athletic anatomy, sophisticated independent sports brand. Signal orange #F45125, cream #FFF4DA, forest green #234837 and charcoal #202624. No 3D, no gradients, no glossy rendering, no cute mascot, no text, letters, logos or watermark. These are production app assets, not a UI mockup.\nWide 3:2 art to be cropped as a slim in-app banner. Dark forest-green background #234837. RIGHT third only: oversized orange basketball, cream rope swoop and cream running shoe, flattened sports still life with a confident track curve. LEFT 60% calm solid dark green empty for native headline. No detail too small. Very crisp 2D illustration, not photographic.",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cd61-4489-7920-aa36-038d26de8b81\\exec-61c80dd5-29b6-4983-9f9b-4f5116d1cac7.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "basketball-2d",
+    "prompt": "Create original 2D editorial sports illustration for Chinese youth sports training brand 乐秒 / LEMIAO. Professional, crisp, energetic flat vector-like print artwork, confident simplified shapes, subtle flat screenprint texture, natural athletic anatomy, sophisticated independent sports brand. Signal orange #F45125, cream #FFF4DA, forest green #234837 and charcoal #202624. No 3D, no gradients, no glossy rendering, no cute mascot, no text, letters, logos or watermark. These are production app assets, not a UI mockup.\nSquare crop. One young East Asian boy about10 practicing low basketball dribble, cream sports jersey, forest green shorts, orange basketball. Offwhite and pale warm orange basketball halfcourt background. Entire figure with margins. 2D editorial vector-like illustration, warm sharp daylight expressed as flat shadow shapes, natural hands, elegant simple facial details. Strong sports-training identity, no text.",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cd61-4489-7920-aa36-038d26de8b81\\exec-5f0776f6-ef5f-44f6-8985-74dd97fd3a9a.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "fitness-2d",
+    "prompt": "Create original 2D editorial sports illustration for Chinese youth sports training brand 乐秒 / LEMIAO. Professional, crisp, energetic flat vector-like print artwork, confident simplified shapes, subtle flat screenprint texture, natural athletic anatomy, sophisticated independent sports brand. Signal orange #F45125, cream #FFF4DA, forest green #234837 and charcoal #202624. No 3D, no gradients, no glossy rendering, no cute mascot, no text, letters, logos or watermark. These are production app assets, not a UI mockup.\nSquare crop. One East Asian girl about7 in orange sports shirt and dark green shorts practicing steps through a cream agility ladder on pale sage-green court with one orange cone. Whole figure with margins. Bold 2D editorial illustration, flat shapes and simple real movement, natural hands, focused expression, no text.",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cd61-4489-7920-aa36-038d26de8b81\\exec-f2f1324a-d582-4221-9dbe-339952dc6399.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "rope-2d",
+    "prompt": "Create original 2D editorial sports illustration for Chinese youth sports training brand 乐秒 / LEMIAO. Professional, crisp, energetic flat vector-like print artwork, confident simplified shapes, subtle flat screenprint texture, natural athletic anatomy, sophisticated independent sports brand. Signal orange #F45125, cream #FFF4DA, forest green #234837 and charcoal #202624. No 3D, no gradients, no glossy rendering, no cute mascot, no text, letters, logos or watermark. These are production app assets, not a UI mockup.\nSquare crop. One East Asian girl about10 in cream sports shirt and dark green shorts jumping rope, both hands each hold one handle, single continuous orange rope forms a loop around her body. Pale warm yellow court with a single green court curve, whole figure with margins. Bold crisp 2D sports editorial illustration, natural pose and hands, focused expression, no text.",
+    "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cd61-4489-7920-aa36-038d26de8b81\\exec-a813333a-205b-4728-999c-80fa5da42696.png",
+    "tool": "built-in image_gen"
+  }
+]

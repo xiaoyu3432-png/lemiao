@@ -1,0 +1,25 @@
+{
+  "name": "lemiao-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.10.0",
+  "engines": { "node": ">=22.12.0", "pnpm": ">=11" },
+  "scripts": {
+    "dev": "pnpm --filter @lemiao/contracts build && concurrently -k -n api,admin,miniapp -c cyan,magenta,yellow \"pnpm --filter @lemiao/api dev\" \"pnpm --filter @lemiao/admin dev\" \"pnpm --filter @lemiao/miniapp dev:h5\"",
+    "dev:mp-weixin": "pnpm --filter @lemiao/contracts build && pnpm --filter @lemiao/miniapp dev:mp-weixin",
+    "build": "pnpm --filter @lemiao/contracts build && pnpm --filter @lemiao/api build && pnpm --filter @lemiao/admin build && pnpm --filter @lemiao/miniapp build",
+    "typecheck": "pnpm --filter @lemiao/contracts build && pnpm -r typecheck",
+    "lint": "eslint apps packages --max-warnings 0",
+    "test": "pnpm --filter @lemiao/contracts build && pnpm --filter @lemiao/api test"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.4",
+    "concurrently": "9.2.1",
+    "eslint": "9.39.4",
+    "eslint-plugin-vue": "10.5.1",
+    "globals": "16.5.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.46.1",
+    "vue-eslint-parser": "10.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+packages:
+  - apps/*
+  - packages/*
+
+# uni-app's Vue 3.4 compiler pulls an optional resolver peer with an open version range.
+# Keep that resolver on the Vue 3.4-compatible VueUse line, without changing DCloud packages.
+overrides:
+  'unplugin-auto-import@19.1.0>@vueuse/core': 10.11.1
+
+allowBuilds:
+  '@nestjs/core': false
+  esbuild: true
+  vue-demi: true
+  '@parcel/watcher': false
+  '@scarf/scarf': false
+  core-js: false
+  core-js-pure: false
+
+minimumReleaseAgeExclude:
+  - '@nestjs/common@11.2.6'
+  - '@nestjs/core@11.2.6'
+  - '@nestjs/platform-express@11.2.6'
+  - '@nestjs/testing@11.2.6'

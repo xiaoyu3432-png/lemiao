@@ -1,0 +1,22 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+.qa/
+.DS_Store
+project.private.config.json
+
+# Local research evidence and temporary design reviews
+/需求文档/
+/.impeccable/review/
+
+# Local credentials and signing material
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc.local
