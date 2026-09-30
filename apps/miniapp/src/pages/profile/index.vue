@@ -11,12 +11,12 @@ const services = [
   <view class="page profile-page">
     <BrandHeader label="我的运动空间" />
     <view class="profile-welcome">
-      <view><text class="page-title">欢迎来到乐秒</text><text class="page-intro">从喜欢的运动开始。</text></view>
+      <view><text class="page-title">欢迎来到运动课程</text><text class="page-intro">从喜欢的运动开始。</text></view>
       <view class="profile-avatar"><image src="/static/brand/user-ink.png" mode="aspectFit" aria-hidden="true" /></view>
     </view>
     <view class="member-pass">
       <view class="pass-copy"><text class="pass-title">你的下一次进步，<br />从这一秒开始。</text><text class="pass-status">当前为访客浏览，无需登录</text></view>
-      <image class="pass-mark" src="/static/brand/brand-mark.png" mode="aspectFit" aria-hidden="true" />
+      <image class="pass-mark" src="/static/brand/basketball-orange.png" mode="aspectFit" aria-hidden="true" />
     </view>
     <view class="services">
       <view v-for="service in services" :key="service.title" class="service-row">
@@ -26,7 +26,7 @@ const services = [
       </view>
     </view>
     <view class="profile-start">
-      <image class="equipment" src="/static/brand/equipment.jpg" mode="aspectFit" alt="乐秒运动装备插画" />
+      <image class="equipment" src="/static/brand/equipment.jpg" mode="aspectFit" alt="运动课程装备插画" />
       <text class="start-title">先选一节适合的运动课</text>
       <text class="start-description">篮球、体适能、跳绳，找到孩子的兴趣。</text>
       <button class="primary-button" @click="home">浏览课程</button>

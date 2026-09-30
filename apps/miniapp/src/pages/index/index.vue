@@ -68,7 +68,7 @@ onPullDownRefresh(async () => { await store.load(); uni.stopPullDownRefresh(); }
   <view class="page home-page">
     <view class="home-masthead" :style="{ paddingTop: statusBarHeight + 'px' }">
       <view class="home-nav" :style="{ height: navigationHeight + 'px', paddingRight: capsuleSpace + 'px' }">
-        <view class="home-brand"><image src="/static/brand/brand-mark.png" mode="aspectFit" aria-hidden="true" /><text>乐秒运动</text></view>
+        <view class="home-brand"><image src="/static/brand/basketball-orange.png" mode="aspectFit" aria-hidden="true" /><text>运动课程</text></view>
         <text class="home-demo">开发演示</text>
       </view>
       <view class="search-field">
