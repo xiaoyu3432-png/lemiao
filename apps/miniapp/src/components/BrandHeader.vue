@@ -4,8 +4,8 @@ defineProps<{ label?: string }>();
 <template>
   <view class="brand-header">
     <view class="brand-lockup">
-      <image class="brand-mark" src="/static/brand/basketball-orange.png" mode="aspectFit" aria-hidden="true" />
-      <view class="brand-wordmark"><text class="brand-name">运动课程</text><text class="brand-latin">YOUTH SPORTS</text></view>
+      <image class="brand-mark" src="/static/brand/brand-mark.png" mode="aspectFit" aria-hidden="true" />
+      <view class="brand-wordmark"><text class="brand-name">乐秒</text><text class="brand-latin">LEMIAO</text></view>
     </view>
     <text class="brand-descriptor">{{ label || '青少年运动 · 每一秒向前' }}</text>
   </view>

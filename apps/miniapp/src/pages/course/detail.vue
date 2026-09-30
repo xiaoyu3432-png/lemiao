@@ -45,7 +45,7 @@ function home() { uni.switchTab({ url: '/pages/index/index' }); }
       <view class="detail-section"><text class="section-title">关于这节课</text><text class="detail-description">{{ course.description }}</text></view>
       <view class="availability"><image class="icon" src="/static/brand/info-ink.png" mode="aspectFit" aria-hidden="true" /><view><text class="availability-title">先了解，再出发</text><text>当前提供课程浏览。教练、排期、预约与支付尚未接入。</text></view></view>
       <button class="primary-button" @click="home">继续发现课程</button>
-      <view class="brand-footer"><image src="/static/brand/basketball-orange.png" mode="aspectFit" aria-hidden="true" /><text>运动课程 · 每一秒向前</text></view>
+      <view class="brand-footer"><image src="/static/brand/brand-mark.png" mode="aspectFit" aria-hidden="true" /><text>乐秒运动 · 每一秒向前</text></view>
     </template>
   </view>
 </template>

@@ -17,6 +17,6 @@ const { data, loading, error, reload } = useResource(() => get<HealthStatus>('/h
         <dl class="status-list"><div><dt>服务名称</dt><dd>{{ data.service }}</dd></div><div><dt>MySQL</dt><dd>{{ data.database === 'connected' ? '已连接' : '未配置' }}<small v-if="data.database === 'not_configured'">不影响当前演示</small></dd></div><div><dt>课程数据</dt><dd>服务端演示数据<small>非数据库业务记录</small></dd></div></dl>
       </template>
     </section>
-    <section class="next-step"><div><span class="section-kicker">当前可用</span><h2>查看三端共用的课程</h2><p>课程名称、适龄、时长与价格均来自服务端。小程序首页展示相同内容。</p><RouterLink to="/courses" class="primary-link">打开课程示例 <span aria-hidden="true">→</span></RouterLink></div><div class="scope-note"><h3>建议体验路线</h3><ol><li>确认上方服务连接正常</li><li>进入课程示例，尝试搜索和组合筛选</li><li>打开课程详情，对照 H5 中同一课程的信息</li></ol><p>账号、预约、支付尚未接入；当前只读体验无需数据库。</p></div></section>
+    <section class="next-step"><div><span class="section-kicker">当前可用</span><h2>查看三端共用的课程</h2><p>课程名称、适龄、时长与价格均来自服务端。小程序首页展示相同内容。</p><RouterLink to="/courses" class="primary-link">打开课程示例 <span aria-hidden="true">→</span></RouterLink></div><div class="scope-note"><h3>本次交付范围</h3><ul><li>三端运行与构建配置</li><li>只读课程列表和详情</li><li>请求异常提示与重试</li></ul><p>账号、预约、支付与业务管理将在后续阶段接入。</p></div></section>
   </section>
 </template>
